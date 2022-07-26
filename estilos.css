@@ -1,0 +1,119 @@
+.navbar{
+    background-color: rgb(4, 110, 57);
+}
+
+.jumbotron{
+    background-image: url(img/Suplementos-deportivos-e1538683063342.jpg);
+    background-size: cover;
+    background-position: center;
+    color: springgreen;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+.jumbotron h1{
+    text-shadow: 0 0 5px #333;
+}
+
+.jumbotron p{
+    text-shadow: 0 0 5px #333;
+}
+
+.jumbotron button{
+    background-color: rgb(2, 184, 93);
+}
+
+h2{
+    text-align: center;
+    background-color: springgreen;
+    padding: 10px;
+    color: white;
+    text-shadow: 0 0 5px #333;
+}
+
+.suplementos{
+    background-color: #333;
+    min-height: 400px;
+    color: #fff;
+}
+
+.marcas{
+    height: auto;
+    background-color: #333;
+}
+
+.item{
+    color: white;
+    border: 2px solid white;
+}
+
+.item img{
+    border-radius: 50%;
+}
+
+.item h4{
+    text-align: center;
+    color: springgreen;
+}
+
+.nleft{
+    background-image: url(img/Suplementos-deportivos.webp);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+
+.nright{
+    background-image: url(img/suplementos-deporte-4.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 200px;
+}
+
+footer{
+    background-color:rgb(4, 110, 57) ;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+.redes i{
+    font-size: 50px;
+    letter-spacing: 20px;
+    transition: all 0.7s;
+}
+
+footer p::first-letter{
+    color: springgreen;
+    font-size: 35px;
+}
+
+footer p::selection{
+    background-color: springgreen;
+    color: yellowgreen;
+}
+
+.redes i:hover{
+    color: springgreen;
+    cursor: pointer;
+    transform: translateY(-20px);
+    transition: all 0.7s;
+}
+
+.subir{
+    height: 40px;
+    width: 40px;
+    background-color: green;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    text-align: center;
+    font-size: 25px;
+    line-height: 40px;
+    color: white;
+    border: 3px solid white;
+    border-radius: 50%;
+    box-shadow: 0 0 5px white;
+}
